@@ -1,4 +1,3 @@
-<script type="text/javascript">// <![CDATA[
 window.onload = function() {document.querySelectorAll('.single-section h2').forEach($heading => {
 
     //create id from heading text
@@ -19,4 +18,3 @@ window.onload = function() {document.querySelectorAll('.single-section h2').forE
   //append anchor after heading text
   $heading.appendChild($anchor);
 });}
-// ]]></script>
