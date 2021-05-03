@@ -174,7 +174,7 @@ html body{
 	color: #ffffff;
 }
 
-.taskheader { /* Weekly task font */
+.taskheader h2{ /* Weekly task header font */
 	color: #007EA8
 }
 
