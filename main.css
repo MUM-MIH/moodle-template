@@ -32,10 +32,6 @@ p {
 	line-height: 1.2rem;
 }
 
-.single-section h2 {
-	display: inline-block;
-	scroll-margin-top: 150px;
-}
 
 h3.sectionname {
 	font-size: 28px;
@@ -148,7 +144,9 @@ html body{
 	display: none;
 }
 
-.circleiconw {
+/* Weekly placeholders, headers */
+
+.circleiconw { /* Normal header orange */
 	background: #ffa939;
 	display: inline-block;
         border-radius: 50%;
@@ -162,6 +160,39 @@ html body{
 	color: #ffffff;
 }
 
+.circleicontask { /* Weekly task header blue */
+	background: #007EA8;
+	display: inline-block;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        padding-top: 12px;
+        padding-left: 9px;
+        margin-right: 25px;
+        border: none;
+	font-size: x-small;
+	color: #ffffff;
+}
+
+.taskheader { /* Weekly task font */
+	color: #007EA8
+}
+
+.jumbotron { /* Weekly main title grey BG */
+  	background-color: #E8E8E8!important;
+ 	padding: 1rem 2rem 2rem;
+}
+
+.display-4 { /* Weekly main title font */
+	font-size: 2rem !important;
+}
+
+.fullwidthcon {
+	width: 100%;
+}
+
+/* Overview page thumbnail icons */
+
 ul.gridicons li {
 	padding: 0 !important;
 }
@@ -174,23 +205,13 @@ ul.gridicons li .icon_content {
 	padding: 18px 5px !important;
 }
 
-.circleicontask {
-	background: #007EA8;
-	display: inline-block;
-        border-radius: 50%;
-        width: 55px;
-        height: 55px;
-        padding-top: 12px;
-        padding-left: 9px;
-        margin-right: 25px;
-        border: none;
-	font-size: x-small;
-	color: #ffffff;
-      }
+/* Responsive embedded h5p non-video */
 
 .embed-responsive-5by3{
    	padding-bottom: 67%;
 }
+
+/* Anchor links on h2 headers */
 
 .anchor-heading:target {
 	margin-top: -110px !important;
@@ -215,19 +236,11 @@ ul.gridicons li .icon_content {
     opacity: .5;
 }
 
+.single-section h2 { /* Offset sticky menu on anchor jump */
+	display: inline-block;
+	scroll-margin-top: 150px;
+}
+
 html{scroll-behavior:smooth}
-
-.jumbotron {
-  	background-color: #E8E8E8!important;
- 	padding: 1rem 2rem 2rem;
-}
-
-.display-4 {
-	font-size: 2rem !important;
-}
-
-.fullwidthcon {
-	width: 100%;
-}
 
 --></style>
