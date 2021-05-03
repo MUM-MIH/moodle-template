@@ -174,10 +174,6 @@ html body{
 	color: #ffffff;
 }
 
-.taskheader h2{ /* Weekly task header font */
-	color: #007EA8
-}
-
 .jumbotron { /* Weekly main title grey BG */
   	background-color: #E8E8E8!important;
  	padding: 1rem 2rem 2rem;
@@ -236,9 +232,10 @@ ul.gridicons li .icon_content {
     opacity: .5;
 }
 
-.single-section h2 { /* Offset sticky menu on anchor jump */
+.single-section h2 { /* Offset sticky menu on anchor jump and set font color for all task headers*/
 	display: inline-block;
 	scroll-margin-top: 150px;
+	color: #007EA8
 }
 
 html{scroll-behavior:smooth}
