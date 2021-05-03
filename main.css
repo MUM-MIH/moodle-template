@@ -174,14 +174,6 @@ ul.gridicons li .icon_content {
 	padding: 18px 5px !important;
 }
 
-.arts-banner-nav {
-	background: #0086b3;
-}
-
-.arts-banner-nav a:hover, .arts-banner-nav a:focus{
-	background-color: #0099cc;
-}
-
 .circleicontask {
 	background: #008cba;
 	display: inline-block;
