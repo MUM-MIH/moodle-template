@@ -1,3 +1,7 @@
+if (/section/.test(window.location.href)) {
+      document.getElementById('hiddenoverview').style.display = 'none';
+    }
+
 $(function() {     
         $("#accordion1").accordion({
           header: "h5",
@@ -7,6 +11,4 @@ $(function() {
         });
      });
 
-if (/section/.test(window.location.href)) {
-      document.getElementById('hiddenoverview').style.display = 'none';
-    }
+
