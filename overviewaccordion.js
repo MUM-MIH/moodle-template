@@ -4,4 +4,3 @@
           heightStyle: "content",
           active: 0,
         });
-      });
