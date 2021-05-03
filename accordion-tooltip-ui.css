@@ -142,10 +142,10 @@ body .ui-tooltip{
 
 input:focus, textarea:focus, select:focus, button:focus{
     outline-style: dotted;
-	outline-color: #E8E8E8
+	outline-color: #016080
     }
 
 .ui-accordion-header:focus {
 	outline: none;
-	border: 1px dotted #008cba;
+	border: 2px dotted #016080;
 }
