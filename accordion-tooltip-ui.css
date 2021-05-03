@@ -86,16 +86,22 @@
    overflow: hidden;
 }
 
-.ui-accordion .ui-accordion-header{
+.ui-accordion-header{
 	display:block;
 	cursor:pointer;
 	position:relative;
 	margin:2px 0 0 0;
 	padding:0.3rem;
-	font-size:100%;
+	//font-size:100%;
 	background-color: #008cba;
    	color: #ffffff;
 	border-radius: 15px;
+}
+
+.ui-accordion-header-collapsed {
+   	background-color: #d7d7d7;
+   	color: #404040;
+   	padding: 0.3rem;
 }
 
 .ui-accordion .ui-accordion-content{
@@ -134,11 +140,6 @@ body .ui-tooltip{
  	transform: rotate(0deg) ;
 }
 
-.ui-accordion-header-collapsed {
-   	background-color: #d7d7d7;
-   	color: #404040;
-   	padding: 0.3rem;
-}
 
 input:focus, textarea:focus, select:focus, button:focus{
     outline-style: dotted;
