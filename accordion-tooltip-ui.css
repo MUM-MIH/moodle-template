@@ -135,8 +135,8 @@ body .ui-tooltip{
 }
 
 .ui-accordion-header-collapsed {
-   	background-color: #E8E8E8;
-   	color: #008cba;
+   	background-color: #d7d7d7;
+   	color: #404040;
    	padding: 0.3rem;
 }
 
