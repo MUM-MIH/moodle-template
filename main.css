@@ -179,7 +179,7 @@ html body{
  	padding: 1rem 2rem 2rem;
 }
 
-.weektitle p{ /* Weekly main title font */
+.weektitle h1{ /* Weekly main title font */
 	font-size: 2rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
