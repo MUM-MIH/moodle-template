@@ -1,4 +1,4 @@
-$(window).on('load', function() {       
+$(function() {     
         $("#accordion1").accordion({
           header: "h5",
           collapsible: false,
