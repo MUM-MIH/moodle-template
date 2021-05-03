@@ -20,14 +20,3 @@ window.onload = function() {document.querySelectorAll('.single-section h2').forE
   $heading.appendChild($anchor);
 });}
 // ]]></script>
-<script type="text/javascript">// <![CDATA[
-document.querySelectorAll('a.anchor-link').forEach($anchor => {
-    $anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth',
-            block: 'start' //scroll to top of the target element
-        });
-    });
-});
-// ]]></script>
