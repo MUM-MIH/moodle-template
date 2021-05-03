@@ -175,7 +175,7 @@ ul.gridicons li .icon_content {
 }
 
 .circleicontask {
-	background: #008cba;
+	background: #007EA8;
 	display: inline-block;
         border-radius: 50%;
         width: 55px;
@@ -203,7 +203,7 @@ ul.gridicons li .icon_content {
     text-decoration: none;
     opacity: 0;
     transition: opacity ease-in-out .25s;
-    color: #008cba;
+    color: #007EA8;
     scroll-margin-top: 150px;
 }
 
@@ -226,61 +226,8 @@ html{scroll-behavior:smooth}
 	font-size: 2rem !important;
 }
 
-[data-toggle="collapse"]:before {
-    display: inline-block;
-	padding: 6px;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 0.8em;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  	content: "\f138";
-  	transform: rotate(90deg) ;
-  	transition: all linear 0.10s;
-  }   
-
-[data-toggle="collapse"].ui-accordion-header-collapsed:before {
-  	transform: rotate(0deg) ;
-}
-
-.ui-accordion-header {
-   	background-color: #008cba;
-   	color: #ffffff;
-   	padding: 0.3rem;
-   	border-radius: 15px;
-   	cursor: pointer;
-}
-
-.ui-accordion-header-collapsed {
-   	background-color: #E8E8E8;
-   	color: #008cba;
-   	padding: 0.3rem;
-}
-
-input:focus, textarea:focus, select:focus, button:focus{
-   	outline-style: dotted;
-	outline-color: #E8E8E8
-    }
-
-.ui-accordion-content {
-   	display: block;
-   	height: auto;
-   	padding: 0.5em 1em;
-   	overflow: auto;
-}
-
-.ui-accordion {
-   	display: block;
-   	height: auto;
-   	overflow: hidden;
-}
-
-.ui-accordion-header:focus {
-	outline: none;
-	border: 1px dotted #008cba;
-}
 .fullwidthcon {
-	width: 100%
+	width: 100%;
 }
 
 --></style>
