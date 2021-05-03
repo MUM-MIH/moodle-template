@@ -1,5 +1,5 @@
 $(window).load(function() {
-        $("#accordionover").accordion({
+        $("#accordion1").accordion({
           header: "h5",
           collapsible: false,
           heightStyle: "content",
