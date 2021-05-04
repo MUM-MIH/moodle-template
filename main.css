@@ -279,14 +279,16 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-  	background-color: #d4dce5;
+  	background-color: #f5f5f5;
 }
 
 table {
 	width: 100%
 }
 
+
 /* Table (taskbar) styles */
+
 #taskbar {
 	margin-left: 15px; /* aligns taskbar with left indent */
 	width: auto;
@@ -325,6 +327,32 @@ table {
 	margin-left: 0;
 	padding: 0;
 	}
+}
+
+
+/* Table (unit calendar) styles */
+
+.caldark thead{
+	background-color: #343a40; /* determines color of header row */
+}
+
+.caldark h6{
+	color: #ffffff;
+	font-weight: bold;
+	margin: 15px 5px;
+}
+
+.caldark thead a{
+	color: inherit; /* disables the automatic blue colour on links in the header */
+}
+
+#calemphasis {
+	background-color: #007EA8; /* determines color of important dates row */
+}
+
+#calemphasis h6{
+	color: #ffffff;
+	margin: 15px 0px;
 }
 
 --></style>
