@@ -288,7 +288,8 @@ table {
 .taskbar td a { color: inherit; } 
 
 .taskbar th, td {
-	padding: 15px;
+	padding: 0px 8px;
+	margin: 0px 8px;
 }
 
 .taskbar tbody tr:nth-child(odd) {
