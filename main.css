@@ -292,6 +292,7 @@ thead td {
 	color: #343a40;
 	font-weight: 300;
 	font-size: 15px;
+	padding: 5px 8px;
 }
 
 .taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
@@ -315,6 +316,5 @@ thead td {
 	width: 50%;
 	margin-left: 15px; /* aligns taskbar with left indent */
 }
-
 
 --></style>
