@@ -264,7 +264,7 @@ thead td {
 thead td a { color: inherit; } 
 
 table td {
-	padding: 15px;
+	padding: 10px;
 	margin: 0px;
 	text-align: left;
 }
@@ -277,10 +277,6 @@ tbody tr:nth-child(even) {
   	background-color: #d4dce5;
 }
 
-.assessmenttable {
-	border-color: #ffffff;
-}
-
 table {
 	width: 100%
 }
@@ -288,6 +284,9 @@ table {
 /* Table (taskbar) styles */
 #taskbar {
 	margin-left: 15px; /* aligns taskbar with left indent */
+}
+#taskbar table {
+	width: auto
 }
 
 #taskbar thead {
@@ -298,7 +297,7 @@ table {
 	color: #343a40;
 	font-weight: 300;
 	font-size: 15px;
-	padding: 5px 8px;
+	padding: 5px 8px 15px;
 }
 
 #taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
