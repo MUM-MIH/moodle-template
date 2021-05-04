@@ -186,9 +186,9 @@ html body{
 }
 
 .weeklos p{
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 1.4em;
-font-weight: 400;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
 }
 
 .fullwidthcon {
@@ -223,21 +223,21 @@ ul.gridicons li .icon_content {
 }
 
 .anchor-heading .anchor-link {
-    display: inline-block;
-    padding-left: .25rem;
-    text-decoration: none;
-    opacity: 0;
-    transition: opacity ease-in-out .25s;
-    color: #007EA8;
-    scroll-margin-top: 150px;
+  	display: inline-block;
+  	padding-left: .25rem;
+    	text-decoration: none;
+    	opacity: 0;
+    	transition: opacity ease-in-out .25s;
+    	color: #007EA8;
+    	scroll-margin-top: 150px;
 }
 
 .anchor-heading .anchor-link:hover {
-    opacity: 1 !important;
+    	opacity: 1 !important;
 }
 
 .anchor-heading:hover .anchor-link {
-    opacity: .5;
+    	opacity: .5;
 }
 
 .single-section h2 { /* Offset sticky menu on anchor jump and set font color for all task headers*/
@@ -248,38 +248,61 @@ ul.gridicons li .icon_content {
 
 html{scroll-behavior:smooth}
 
-/* Table styles */
+/* Table (general) styles */
 thead {
-background-color: #595959;
+	background-color: #595959;
 }
 
 thead td {
-color: #FFFFFF;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 600;
-font-size: 15px;
-text-decoration: none;
+	color: #FFFFFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
 }
 
 thead td a { color: inherit; } 
 
 th, td {
-padding: 15px;
+	padding: 15px;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #eef1f2;
+  	background-color: #eef1f2;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #d4dce5;
+  	background-color: #d4dce5;
 }
 
 .assessmenttable {
-border-color: #ffffff;
+	border-color: #ffffff;
 }
 
 table {
-width: 100%
+	width: 100%
 }
+
+/* Table (taskbar) styles */
+
+.taskbar td a { color: inherit; } 
+
+.taskbar th, td {
+	padding: 15px;
+}
+
+.taskbar tbody tr:nth-child(odd) {
+  	background-color: #ffffff;
+}
+
+.taskbar tbody tr:nth-child(even) {
+  	background-color: #ffffff;
+}
+
+.taskbar table {
+	width: 50%;
+	margin-left: 15px; /* aligns taskbar with left indent */
+}
+
+
 --></style>
