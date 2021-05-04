@@ -263,7 +263,7 @@ thead td {
 
 thead td a { color: inherit; } 
 
-th, td {
+table th, td {
 	padding: 15px;
 }
 
@@ -323,7 +323,7 @@ table {
 }
 
 @media screen and (max-width: 600px){
-	.table-orange {
+	.taskbar {
 	margin-left: 0;
 	padding: 0;
 	}
