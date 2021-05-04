@@ -288,12 +288,19 @@ table {
 	background-color: #FFFFFF;
 }
 
+thead td {
+	color: #343a40;
+	font-weight: 300;
+	font-size: 15px;
+}
+
 .taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
 
 .taskbar th, td {
 	padding: 0px 8px;
 	margin: 0px 8px;
 	text-align: center;
+	font-weight: 500;
 }
 
 .taskbar tbody tr:nth-child(odd) {
