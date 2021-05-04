@@ -57,7 +57,7 @@ h3.sectionname {  /* Style page titles */
 	padding: 3px 15px;
 }
 
-div.contentafterlink > div > div::before {. /* Adds speech bubble tail to activity descriptions */
+div.contentafterlink > div > div::before { /* Adds speech bubble tail to activity descriptions */
    content: "";
   position: absolute;
   margin-left: 25px;
