@@ -96,6 +96,7 @@
 	background-color: #008cba;
    	color: #ffffff;
 	border-radius: 15px;
+	font-weight: 400;
 }
 
 .ui-accordion-header-collapsed {
