@@ -145,7 +145,7 @@ html body{
 }
 
 /* Forums placeholders, headers */
-.forumhead p{
+#forumhead p{
 	margin-left: 88px
 }
 
