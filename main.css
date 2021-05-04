@@ -284,12 +284,16 @@ table {
 }
 
 /* Table (taskbar) styles */
+.taskbar thead {
+	background-color: #FFFFFF;
+}
 
-.taskbar td a { color: inherit; } 
+.taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
 
 .taskbar th, td {
 	padding: 0px 8px;
 	margin: 0px 8px;
+	text-align: center;
 }
 
 .taskbar tbody tr:nth-child(odd) {
