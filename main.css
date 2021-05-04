@@ -1,6 +1,6 @@
 <style><!--
 
-#gridshadebox_content .activity {
+#gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
 	border-bottom: none;
 }
 
@@ -33,7 +33,7 @@ p {
 }
 
 
-h3.sectionname {
+h3.sectionname {  /* Style page titles */
 	font-size: 28px;
 	border-bottom: none !important;
 }
@@ -42,13 +42,13 @@ h3.sectionname {
 	margin-bottom: 0.5em;
 }
 
-#iframe {
+#iframe {  /* styles embedded iframes incl. dragdrop videos */
 	width: 100%;
 	max-width: 640px !important;
 	height: auto;
 }
 
-.contentafterlink {
+.contentafterlink { /* Puts activity descriptions in a blue bubble */
 	max-width: 600px;
 	margin-left: 0 !important;
 	margin-bottom: 10px;
@@ -57,7 +57,7 @@ h3.sectionname {
 	padding: 3px 15px;
 }
 
-div.contentafterlink > div > div::before {
+div.contentafterlink > div > div::before {. /* Adds speech bubble tail to activity descriptions */
    content: "";
   position: absolute;
   margin-left: 25px;
@@ -67,25 +67,14 @@ div.contentafterlink > div > div::before {
   border-color: transparent transparent #C6E5F0 transparent;
 }
 
-.weektemplate {
+.boxemphasis {  /* Placeholder - grey text box */
 	background-color: #E8E8E8;
 	padding: 1.5em 1.5em 1em;
 	margin-left: 75px;
 }
 
-.weektemplatea {
-	background-color: #E8E8E8;
-	padding-top: 1em;
-	padding-bottom: 1em; 
-	padding-left: 1.5em;
-	margin-bottom: 1em;
-}
-
-.weektemplatea p {
-	margin-bottom: 0 !important;
-}
-
 @media screen and (max-width: 1500px) {
+/* For all but the very widest of screens */
 	li.section .content {
     	margin: 0 !important;
   	}
@@ -116,7 +105,7 @@ div.contentafterlink > div > div::before {
     		margin: 0 0px !important;
   	}
 	
-	.weektemplate {
+	.boxemphasis {
   		padding: 0.5em;
   		margin-left: 0;
 	}
@@ -127,12 +116,6 @@ div.contentafterlink > div > div::before {
 
 	ul#gtopics{
 		padding-left: 0 !important;
-	}
-	
-	.weekthumb {
-		display: inline-block;
-		margin: 0 !important;
-		float: none !important;
 	}
 }
 
