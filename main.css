@@ -305,6 +305,7 @@ table {
 
 #taskbar tbody tr:nth-child(even) {
   	background-color: #ffffff;
+	border: none;
 }
 
 @media screen and (max-width: 600px){
