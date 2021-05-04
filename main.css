@@ -240,7 +240,7 @@ ul.gridicons li .icon_content {
     	opacity: .5;
 }
 
-.single-section h2 { /* Offset sticky menu on anchor jump and set font color for all task headers*/
+.single-section h2 { /* Offset sticky menu on anchor jump and set font color for all h2 headers to blue*/
 	display: inline-block;
 	scroll-margin-top: 150px;
 	color: #007EA8
@@ -284,15 +284,25 @@ table {
 }
 
 /* Table (taskbar) styles */
+.taskbar table {
+	width: 50%;
+	margin-left: 15px; /* aligns taskbar with left indent */
+	 table-layout:fixed;
+}
+
 .taskbar thead {
 	background-color: #FFFFFF;
 }
 
-thead td {
+.taskbar thead td {
 	color: #343a40;
 	font-weight: 300;
 	font-size: 15px;
 	padding: 5px 8px;
+}
+
+.taskbar td {
+	width: 30px;
 }
 
 .taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
@@ -312,9 +322,11 @@ thead td {
   	background-color: #ffffff;
 }
 
-.taskbar table {
-	width: 50%;
-	margin-left: 15px; /* aligns taskbar with left indent */
+@media screen and (max-width: 600px){
+	.table-orange {
+	margin-left: 0;
+	padding: 0;
+	}
 }
 
 --></style>
