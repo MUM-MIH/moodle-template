@@ -248,4 +248,38 @@ ul.gridicons li .icon_content {
 
 html{scroll-behavior:smooth}
 
+/* Table styles */
+thead {
+background-color: #595959;
+}
+
+thead td {
+color: #FFFFFF;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 600;
+font-size: 15px;
+text-decoration: none;
+}
+
+thead td a { color: inherit; } 
+
+th, td {
+padding: 15px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eef1f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d4dce5;
+}
+
+.assessmenttable {
+border-color: #ffffff;
+}
+
+table {
+width: 100%
+}
 --></style>
