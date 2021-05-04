@@ -263,8 +263,11 @@ thead td {
 
 thead td a { color: inherit; } 
 
-table th, td {
+table td {
 	padding: 15px;
+	margin: 0px;
+	text-align: left;
+	font-weight: 300;
 }
 
 tbody tr:nth-child(odd) {
@@ -307,7 +310,7 @@ table {
 
 #taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
 
-#taskbar th, td {
+#taskbar td {
 	padding: 0px 8px;
 	margin: 0px 8px;
 	text-align: center;
