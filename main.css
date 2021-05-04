@@ -1,5 +1,9 @@
 <style><!--
 
+/* Styles applying to overall site */
+
+li.section .content {margin: 0!important}
+
 #gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
 	border-bottom: none;
 }
@@ -67,11 +71,6 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
   border-color: transparent transparent #C6E5F0 transparent;
 }
 
-.boxemphasis {  /* Placeholder - grey text box */
-	background-color: #E8E8E8;
-	padding: 1.5em 1.5em 1em;
-	margin-left: 75px;
-}
 
 @media screen and (max-width: 1500px) {
 /* For all but the very widest of screens */
@@ -127,10 +126,12 @@ html body{
 	display: none;
 }
 
+
 /* Forums placeholders, headers */
 #forumhead p{
 	margin-left: 88px
 }
+
 
 /* Weekly placeholders, headers */
 
@@ -182,6 +183,13 @@ html body{
 .fullwidthcon {
 	width: 100%;
 }
+
+.boxemphasis {  /* Placeholder - grey text box */
+	background-color: #E8E8E8;
+	padding: 1.5em 1.5em 1em;
+	margin-left: 75px;
+}
+
 
 /* Overview page thumbnail icons */
 
