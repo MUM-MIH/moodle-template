@@ -72,7 +72,9 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
 
 @media screen and (max-width: 2000px) {
 /* For all but the very widest of screens */
-	
+	li.section .content {
+    		margin: 0 0px !important;
+  	}
 }
 
 @media screen and (min-width: 768px) {
