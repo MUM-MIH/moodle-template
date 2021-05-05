@@ -3,6 +3,7 @@ if (/section/.test(window.location.href)) {
       }
 
       $(function() {
+      if ( $( "#accordion" ).length ) {
         $("#accordion").accordion({
           header: "h5",
           collapsible: false,
