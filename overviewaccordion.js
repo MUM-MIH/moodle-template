@@ -3,12 +3,12 @@ if (/section/.test(window.location.href)) {
       }
 
       $(function() {
-      if ( $( "#accordion" ).length ) {
-        $("#accordion").accordion({
-          header: "h5",
-          collapsible: false,
-          heightStyle: "content",
-          active: 0,
-        });
-      });
-
+        if ( $( "#accordion" ).length ) {
+                $("#accordion").accordion({
+                        header: "h5",
+                        collapsible: false,
+                        heightStyle: "content",
+                        active: 0,
+                });
+         });
+       });
