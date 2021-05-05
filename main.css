@@ -2,7 +2,9 @@
 
 /* Styles applying to overall site */
 
-.course-content ul.gtopics li.section .content {margin: 0px !important;}
+li.section .content {
+    	margin: 0px 0px !important;
+  	}
 
 #gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
 	border-bottom: none;
@@ -74,9 +76,7 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
 
 @media screen and (max-width: 1500px) {
 /* For all but the very widest of screens */
-	li.section .content {
-    	margin: 0 !important;
-  	}
+	
 }
 
 @media screen and (min-width: 768px) {
