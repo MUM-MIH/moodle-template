@@ -354,4 +354,88 @@ table {
 	margin: 10px 0px;
 }
 
+
+/* Grid Icons */
+
+#gridsection-1 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_calendar.png");
+background-size: contain;
+}
+#gridsection-2 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_assignments.png");
+background-size: contain;
+}
+#gridsection-3 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk1.png");
+background-size: contain;
+}
+#gridsection-4 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk2.png");
+background-size: contain;
+}
+#gridsection-5 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk3.png");
+background-size: contain;
+}
+#gridsection-6 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk4.png");
+background-size: contain;
+}
+#gridsection-7 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk5.png");
+background-size: contain;
+}
+#gridsection-8 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk6.png");
+background-size: contain;
+}
+#gridsection-9 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk7.png");
+background-size: contain;
+}
+#gridsection-10 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk8.png");
+background-size: contain;
+}
+#gridsection-11 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk9.png");
+background-size: contain;
+}
+#gridsection-12 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk10.png");
+background-size: contain;
+}
+#gridsection-13 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk11.png");
+background-size: contain;
+}
+#gridsection-14 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_wk12.png");
+background-size: contain;
+}
+#gridsection-15 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_zoom.png");
+background-size: contain;
+}
+#gridsection-16 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_forum.png");
+background-size: contain;
+}
+#gridsection-17 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_contacts.png");
+background-size: contain;
+}
+#gridsection-18 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_resources.png");
+background-size: contain;
+}
+#gridsection-19 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_policy.png");
+background-size: contain;
+}
+#gridsection-19 .image_holder {
+background-image: url("https://mum-mih.github.io/moodle-template/Icon_design.png");
+background-size: contain;
+}
+
 --></style>
