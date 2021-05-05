@@ -2,7 +2,7 @@
 
 /* Styles applying to overall site */
 
-div.content {margin: 0px !important;}
+.course-content ul.gtopics li.section .content {margin: 0px !important;}
 
 #gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
 	border-bottom: none;
