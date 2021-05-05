@@ -72,10 +72,10 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
 
 @media screen and (max-width: 2000px) {
 /* For all but the very widest of screens */
-	li.section .content {
+	.content {
     		margin: 0px 0px !important;
   	}
-	ul#gtopics: 
+	.gtopics: 
 		padding-left: 0!important;
 	}
 }
