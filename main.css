@@ -2,7 +2,7 @@
 
 /* Styles applying to overall site */
 
-section .content {margin: 0!important}
+.content {margin: 0!important}
 
 #gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
 	border-bottom: none;
