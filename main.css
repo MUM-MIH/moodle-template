@@ -2,9 +2,15 @@
 
 /* Styles applying to overall site */
 
+gridshadebox_content {
+	display: none
+}
+
 #gridshadebox_content .activity {  /* Hides ugly dotted lines seperating activities */
 	border-bottom: none;
 }
+
+
 
 html body{
 	font-size: 90%;
