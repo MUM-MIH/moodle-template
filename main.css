@@ -121,6 +121,13 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
 	ul#gtopics{
 		padding-left: 0 !important;
 	}
+	
+	.vidembed {
+	margin-left: 0px;
+	margin-right: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+	}
 }
 
 html body{
