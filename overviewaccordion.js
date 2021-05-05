@@ -10,5 +10,5 @@ if (/section/.test(window.location.href)) {
                         heightStyle: "content",
                         active: 0,
                 });
-         });
+         }
        });
