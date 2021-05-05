@@ -288,7 +288,7 @@ table {
 /* Table (taskbar) styles */
 
 #taskbar {
-	margin-left: 15px; /* aligns taskbar with left indent */
+	margin-left: 70px; /* aligns taskbar with left indent */
 	width: auto;
 }
 
