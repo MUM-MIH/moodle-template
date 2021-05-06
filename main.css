@@ -257,7 +257,7 @@ thead {
 	background-color: #007EA8;
 }
 
-thead td {
+thead td, th {
 	color: #FFFFFF;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
