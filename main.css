@@ -263,6 +263,8 @@ thead td,th:not(#taskbar) {
 	font-weight: 600;
 	font-size: 15px;
 	text-decoration: none;
+	text-align: left;
+	padding: 10px
 }
 
 thead td a { color: inherit; } 
