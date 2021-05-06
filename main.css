@@ -308,7 +308,7 @@ table {
 
 #taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
 
-#taskbar td, th {
+#taskbar td,th {
 	padding: 0px 8px;
 	margin: 0px 8px;
 	text-align: center;
