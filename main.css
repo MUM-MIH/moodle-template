@@ -340,7 +340,7 @@ table {
 	background-color: #343a40; /* determines color of header row */
 }
 
-.caldark h6{
+.caldark th{
 	color: #ffffff;
 	font-weight: bold;
 }
