@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 }
 
 h4 {
@@ -244,7 +244,7 @@ ul.gridicons li .icon_content {
     	opacity: .5;
 }
 
-.single-section h2 { /* Offset sticky menu on anchor jump and set font color for all h2 headers to blue*/
+.single-section h2,h3 { /* Offset sticky menu on anchor jump and set font color for all h2 headers to blue*/
 	display: inline-block;
 	scroll-margin-top: 150px;
 	color: #007EA8
