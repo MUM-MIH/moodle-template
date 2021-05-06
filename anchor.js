@@ -1,4 +1,4 @@
-window.onload = function() {document.querySelectorAll('.single-section h2').forEach($heading => {
+window.onload = function() {document.querySelectorAll('.single-section h2, h3').forEach($heading => {
 
     //create id from heading text
   var id = $heading.getAttribute("id") || $heading.innerText.toLowerCase().replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/ +/g, '-');
