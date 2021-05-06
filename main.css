@@ -351,11 +351,8 @@ table {
 
 #calemphasis {
 	background-color: #007EA8; /* determines color of important dates row */
-}
-
-#calemphasis td{
 	color: #ffffff;
-	margin: 10px 0px;
+	font-weight: bold
 }
 
 
