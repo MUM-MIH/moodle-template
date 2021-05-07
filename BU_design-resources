@@ -1,0 +1,17 @@
+<div class="jumbotron dark">
+  <div class="weektitle">
+    <h1>How to use this section?</h1>
+  </div>
+  <p>This section is <strong><u>for staff only</u></strong> and should always be <strong><u>hidden</u></strong> from students.</p>
+  <p>This section contains placeholders and backup copies of important elements. Placeholders are pre-formatted elements that can be edited to incorporate your videos/textual information. Further instructions on how to replace the default text and videos
+    with your own are provided within the edit screen of each element.</p>
+  <hr class="my-4">
+  <div class="weeklos">
+    <p>Instructions:</p>
+  </div>
+  <ol>
+    <li>Identify the element you would like to use</li>
+    <li>Click: edit &gt; duplicate</li>
+    <li>Move the duplicated element to the page in which you want it displayed.</li>
+  </ol>
+</div>
