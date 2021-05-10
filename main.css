@@ -88,11 +88,11 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
 		padding-left: 6.2em;
 	}
 	.mediaplugin {
-		padding-left: 75px;
+		padding-left: 86px;
 	}
 	.mediaplugin > div {
 		margin: 0;
-		max-width: 585px !important;
+		max-width: 580px !important;
 	}
 }
 
