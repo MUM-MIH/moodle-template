@@ -1,19 +1,19 @@
 /*the following three sets of styling hide this block that contains styling for the Admin block so that it isn't visible unless altered in the browser's inspector. Block instance-3098311. This also hides inst3242994 which refers to the logged in user block at category level*/
-#inst3448481, #inst3243453 {
+#inst3448481, #inst3448540 {
 box-shadow: none !important;
 height: 0px !important;
 margin: 0px !important;
 }
-#inst3448481 .action-menu, #inst3448481 .dropdown-toggle, #inst34484811 i, #inst3243453 .action-menu, #inst3243453 .dropdown-toggle, #inst3243453 i {
+#inst3448481 .action-menu, #inst3448540 .dropdown-toggle, #inst34484811 i, #inst3448540 .action-menu, #inst3448540 .dropdown-toggle, #inst3448540 i {
 background: #fff !important;
 color: #fff !important;
 }
-#inst3448481 .card-title, #inst3448481 .card-body, #inst3243453 .card-title, #inst3243453 .card-body {
+#inst3448481 .card-title, #inst3448481 .card-body, #inst3448540 .card-title, #inst3448540 .card-body {
 background: #fff !important;
 color: #fff !important;
   height: 0px !important;
 }
-#inst3243453 .card-text{
+#inst3448540 .card-text{
 font-size: 1px !important;
 }
 
@@ -30,7 +30,7 @@ border: 2px solid transparent;
 margin-bottom: 1.5rem;
 color: white !important;
 text-decoration: none !important;
-background: #006DAE;
+background: #016080;
 padding: .5rem .75rem;
 white-space: nowrap;
 box-shadow: 0 2px 5px 0 rgba(0,0,0,.5); 
@@ -78,7 +78,7 @@ margin-bottom: 0px !important;
 
 /*The following list style Moodle lessons*/
 .branchbuttoncontainer .btn-secondary {
-background-color: #008cba !important; /* changes the navigation button color to blue */
+background-color: #007EA8 !important; /* changes the navigation button color to blue */
 color: #ffffff; /* changes the navigation button font color to white */
 }
 
@@ -89,7 +89,7 @@ margin-top: 30px;
 }
 
 .card-monash div[role=main]>h2{
-background-color: #008cba; /* changes the lesson title bg color to blue */
+background-color: #007EA8; /* changes the lesson title bg color to blue */
 padding: 10px;
 color: white; /* changes the lesson title font color to white */
 }
@@ -99,7 +99,7 @@ margin-left: 10px;
 }
 
 .contents {
-border-top: 1.5px solid #008cba; /* adds blue border under page title - delete if desired */
+border-top: 1.5px solid #007EA8; /* adds blue border under page title - delete if desired */
 padding-top: 30px !important;
 }
 
