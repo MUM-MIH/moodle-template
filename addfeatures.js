@@ -83,7 +83,7 @@ window.onload=function(){
 //make a variable of the Moodle section name
 							var moodleSectionName = $('.sectionname').text();
 //check the variable for the text Staff resources. Make sure the section you are on is the staff resources section.
-							if(moodleSectionName.indexOf("Staff resources") > -1){
+							if(moodleSectionName.indexOf("Design resources") > -1){
 							if(window.location.href.indexOf('section-0') > -1 || window.location.href.indexOf('section=0') > -1) {	
 //If you are on the staff resources section, remove the ability to hide/show the section to students. Ensuring it is not accidentally shown to students.
 							//do nothing						      
@@ -93,7 +93,7 @@ window.onload=function(){
 							} 
 							}
 //Search the left hand nav for the link to the Staff resources section, and make a variable out of that link.
-							var SRSectionLink=$("nav .list-group-item:contains('Staff resources')").attr('href');
+							var SRSectionLink=$("nav .list-group-item:contains('Design resources')").attr('href');
 //Create a new button on the end of the nav labelled staff resources.
 							$('.arts-banner-nav div').last().after('<div id="arts-staff-resources"><a href="https://lms.monash.edu/course/view.php?id=97270&amp;section=1"><i class="fa fa-user fa-fw" aria-hidden="true"></i> Staff resources</a></div>');
 //Change the link of the new button to match the link of the section Staff resources resides in.
