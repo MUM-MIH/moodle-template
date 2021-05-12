@@ -113,3 +113,11 @@ display: none; /* hides activity navigation bar on bottom of lesson - delete if 
 }
 
 /*end of styles of Moodle lessons*/
+
+/*This styles h5p iframes (not while embedded but while in single activity mode */
+
+.h5p-iframe-wrapper {
+  max-width: 1200px /*sets a maximum width so that easier to view activities without scrolling */
+}
+
+
