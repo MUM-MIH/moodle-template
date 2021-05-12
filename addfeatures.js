@@ -1,5 +1,70 @@
 // directs the function to work once the page has loaded.
 window.onload=function(){
+// change all links that have #section- in them which goes to the all sections page, to &section= links that go to the single section instead
+	$('nav a, .bookexit').each(function(){
+        	this.href=this.href.replace('#section-','&section=');
+// opens the atto editor completely on load    
+    		$('.editor_atto_toolbar div').removeAttr('hidden');
+  		$('.editor_atto_toolbar div').css('display', 'inline-block');
+// opens the tinyMCE toolbar rows 2 and 3 on load (once a user collapses this again, it stops working)
+   		$('.mceToolbarRow2').css('display', 'table');
+  		$('.mceToolbarRow3').css('display', 'table');
+  	});
+// style library block to be like the others
+// first remove the existing styles
+	$("#inst3127749 ol li a").removeAttr("style");
+// change all links to be styled like the admin block
+	$('#inst3127749 .list a').css({"color": "#006DAE","text-decoration": "none !important","font-size": "1.1rem"});
+// add a grey border to the block to be styled the same as the others in our category
+	$('#inst3127749 ol').css({"border":"2px solid #f0f0f0", "border-radius":"5px","padding":"12px"});
+// remove unit guide link from all S2 2020 sites
+// check the site header title for S2 2020. If that text is present remove the Unit Guide link.
+	$(".header-title:contains(S2 2020)").filter(function(){
+		$('#arts-guide').remove();
+        });
+	
+// Show Arts Graduate essentials block if the unit code has APG in it
+// make a variable out of the header title of the Moodle site
+	var headerTitle = $('.header-title').text();
+	//If the header title has APG in the title, display the AGE block
+	if(headerTitle.indexOf("APG") >= 1){
+		$('#inst3357177').css('display','block');
+	}
+	
+// define expiration duration as 144 hours
+	const expirationDuration = 1000 * 60 * 60 * 144;
+// save the time of the current login to localStorage
+	const savedTime = localStorage.getItem('savedTime');
+// get the time of the current login
+	const currentTime = new Date().getTime();
+// make a constant that refers to when there is no record of a login
+	const notAccepted = savedTime == undefined;
+// make a constant that refers to when the login has a history, and meets the requirements to display the notification again
+	const AcceptedExpired = savedTime != undefined && currentTime - savedTime > expirationDuration;
+// Australian attendance requirements notification
+	$('.sectionname').before('<div class="container"><div class="modal fade" id="attNotification" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">Attendance expectations</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><p>The Arts Faculty has an expectation that you attend all scheduled workshops and tutorials, and participate in all learning activities. All the evidence suggests that student success is greatly impacted by class attendance and participation.</p><p>If you are unable to attend a scheduled workshop or tutorial, please contact your tutor or unit coordinator, and ensure you have strategies in place to catch up on any missed work.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div>');
+// Malaysian attendance requirements notification
+	$('.sectionname').before('<div class="container"><div class="modal fade" id="attNotificationMalaysia" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">Attendance expectations</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><p>The Monash Arts Faculty, and within that your School \'SASS\', have an expectation that you attend all scheduled workshops and tutorials, and participate in all learning activities. All the evidence suggests that student success is greatly impacted by class attendance and participation. This is true of online and face-to-face learning.</p><p>If you are unable to attend a scheduled workshop or tutorial, please contact your tutor or unit coordinator, and work with them to ensure you have strategies in place to catch up on any missed work.</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div></div>');
+// if the unit is a Malaysia unit, display the Malaysia modal
+	if(headerTitle.indexOf("AMU") >= 1 || headerTitle.indexOf("AMG") >= 1){
+  		if(notAccepted || AcceptedExpired){
+  			$('#attNotificationMalaysia').modal('show');
+  			localStorage.setItem("savedTime", currentTime);
+  		}
+   		else{
+      //Do nothing
+    		}
+	}
+// if the unit is an Australian unit, display the Australian modal
+	else if (headerTitle.indexOf("APG") >= 1 || headerTitle.indexOf("ATS") >= 1){
+ 		if(notAccepted || AcceptedExpired){
+  		$('#attNotification').modal('show');
+  		localStorage.setItem("savedTime", currentTime);
+ 		}
+    		else{
+      		//Do nothing
+    		}
+	}
 //add material to our FoA category if you are a tutor, lect, non-primary lect, designer or admin
 //check the role level. Tutor and above have access to the recycle bin link. So the material that follows will not display to students.
 //Check the admin block. Check each link in the block.
@@ -13,12 +78,12 @@ window.onload=function(){
 					$('#inst3407551 .action-menu-trigger').css('display','none');
 					$('#inst3407542 .action-menu-trigger').css('display','none');
 					$("#nav-drawer .list-group a").each(function(){
-						if($(this).text().match(/Design Resources/)){
+						if($(this).text().match(/Staff resources/)){
 
 //make a variable of the Moodle section name
 							var moodleSectionName = $('.sectionname').text();
 //check the variable for the text Staff resources. Make sure the section you are on is the staff resources section.
-							if(moodleSectionName.indexOf("Design Resources") > -1){
+							if(moodleSectionName.indexOf("Staff resources") > -1){
 							if(window.location.href.indexOf('section-0') > -1 || window.location.href.indexOf('section=0') > -1) {	
 //If you are on the staff resources section, remove the ability to hide/show the section to students. Ensuring it is not accidentally shown to students.
 							//do nothing						      
@@ -30,7 +95,7 @@ window.onload=function(){
 //Search the left hand nav for the link to the Staff resources section, and make a variable out of that link.
 							var SRSectionLink=$("nav .list-group-item:contains('Staff resources')").attr('href');
 //Create a new button on the end of the nav labelled staff resources.
-							$('.arts-banner-nav div').last().after('<div id="arts-staff-resources"><a href="https://lms.monash.edu/course/view.php?id=97270&amp;section=1"><i class="fa fa-user fa-fw" aria-hidden="true"></i> Design Resources</a></div>');
+							$('.arts-banner-nav div').last().after('<div id="arts-staff-resources"><a href="https://lms.monash.edu/course/view.php?id=97270&amp;section=1"><i class="fa fa-user fa-fw" aria-hidden="true"></i> Staff resources</a></div>');
 //Change the link of the new button to match the link of the section Staff resources resides in.
 							$('#arts-staff-resources a').attr('href', SRSectionLink);
 //Check the section the staff member is on is the overview section. If so, add the template instructions.
@@ -48,5 +113,28 @@ window.onload=function(){
 					};
 //Close off function to check for the recycle bin link		
 				});
+//Check the admin block links for the Restore link, which, if present means the staff member is an administrator	
+	$(".block-region .type_course a").each(function(){
+		if($(this).text().match(/Restore/)){
+			$('.section_action_menu .editing_delete').css('display','block');
+			$('#inst3407551 .action-menu-trigger').css('display','block');
+			$('#inst3407542 .action-menu-trigger').css('display','block');
+//Query the logged in user block and find the user's name
+			var userName = document.querySelector('.myprofileitem.fullname')
+			? document.querySelector('.myprofileitem.fullname').innerText
+			: null;
+//If you are part of the educational designer team, add the BEEST link			
+				if(userName == "Tim Scholl" || userName == "Sneha Mohandas" || userName == "Tahlia Birnbaum" || userName == "Carmen Sapsed" || userName == "Josephine Hook" || userName == "Ingrid D'Souza"){
+					$(".header-right").prepend('<div class="custom-menus my-auto dropdown"><button type="button" target="_blank" class="border border-dark rounded-circle p-2 text-dark" role="button" title="BEEST" style="width:38px; height: 38px;" data-toggle="modal" data-target=".beest-home-modal" id="beestDropdown"><img src="https://mon-arts-ed-des.github.io/BEEST/img/dragon-solid-black.png" width="20px" height="20px" style="margin-bottom: 4px;" /></button>');
+					$("#region-main").append('<style>.modal-beest{max-width: 80% !important;}</style><div class="modal fade beest-home-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><div class="modal-dialog modal-lg modal-beest"><div class="modal-content"><div class="modal-header mb-0 p-2 bg-danger text-white px-5"><h5 class="modal-title text-white my-auto" id="exampleModalLabel">To close this window click the button on the right or anywhere outside this box.</h5><button type="button" class="btn btn-outline-light btn-lg rounded" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close <i class="fa fa-times"></i></span></button></div><iframe src="https://mon-arts-ed-des.github.io/BEEST/index.html" width="100%" height="900px"></iframe></div></div></div>');
+				};
+			};
+		});
+//Setup the BEEST if the correct javascript file is present for lecturers. This is so we can give access in individual units for S1 2021.	
+	setup_beest(match_lect,{button:true,iFrame:true});
+/*	var currentURL = window.location.href;
+        var blockTitles = $('aside section .card-title').text();
+        var returnToSectionLink = $('.breadcrumb-item:nth-last-child(2) > a').attr('href');*/
 //Close window.onload function	
 	};
+
