@@ -4,7 +4,12 @@ box-shadow: none !important;
 height: 0px !important;
 margin: 0px !important;
 }
-#inst3448481 .action-menu, #inst3448540 .dropdown-toggle, #inst34484811 i, #inst3448540 .action-menu, #inst3448540 .dropdown-toggle, #inst3448540 i {
+#inst3448481 .action-menu, 
+#inst3448481 .dropdown-toggle, 
+#inst3448481 i, 
+#inst3448540 .action-menu, 
+#inst3448540 .dropdown-toggle, 
+#inst3448540 i { 
 background: #fff !important;
 color: #fff !important;
 }
