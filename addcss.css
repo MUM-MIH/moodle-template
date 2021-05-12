@@ -88,13 +88,13 @@ justify-content: space-evenly; /* spaces out and centres the navigation buttons 
 margin-top: 30px;
 }
 
-//div[role=main] h2{
+.card-monash div[role=main]>h2{
 background-color: #008cba; /* changes the lesson title bg color to blue */
 padding: 10px;
 color: white; /* changes the lesson title font color to white */
 }
 
-//div[role=main] h3{
+.card-monash div[role=main]>h3{
 margin-left: 10px;
 }
 
