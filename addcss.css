@@ -4,7 +4,7 @@ box-shadow: none !important;
 height: 0px !important;
 margin: 0px !important;
 }
-/*#inst3448481 .action-menu, 
+#inst3448481 .action-menu, 
 #inst3448481 .dropdown-toggle, 
 #inst3448481 i, 
 #inst3448540 .action-menu, 
@@ -12,7 +12,7 @@ margin: 0px !important;
 #inst3448540 i { 
 background: #fff !important;
 color: #fff !important;
-}*/
+}
 #inst3448481 .card-title, #inst3448481 .card-body, #inst3448540 .card-title, #inst3448540 .card-body {
 background: #fff !important;
 color: #fff !important;
