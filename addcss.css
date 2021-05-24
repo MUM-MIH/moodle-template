@@ -117,6 +117,10 @@ padding-right: 10px;
 display: none; /* hides activity navigation bar on bottom of lesson - delete if desired */
 }
 
+.bg-light {
+  background-color: #f0f0f0
+}
+
 /*end of styles of Moodle lessons*/
 
 /*This styles h5p iframes (not while embedded but while in single activity mode */
