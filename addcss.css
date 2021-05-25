@@ -21,6 +21,12 @@ color: #fff !important;
 #inst3448540 .card-text{
 font-size: 1px !important;
 }
+.card-body .card-text:nth-child(1){
+		display: none;
+}
+ .card-body .block-controls:nth-child(1){
+		display: none;
+}
 
 /*this styles the add an activity/resource button*/
 .section-modchooser-link {
