@@ -183,6 +183,17 @@ html body{
 	font-weight: 400;
 }
 
+.weekthumb { /* Optional Image on right of Weekly Title */
+	float: right;
+	max-width: 300px;
+	max-height: 250px;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	background-color: #FFFFFF;
+	margin: 0 0 5px 30px;
+}
+
 .weeklos p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.4em;
