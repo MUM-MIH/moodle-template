@@ -84,21 +84,21 @@ color: white; /* changes the lesson title font color to white */
 }
 
 .card-monash div[role=main]>h3{
-margin-left: 10px;
+	margin-left: 10px;
 }
 
 .contents {
-border-top: 1.5px solid #007EA8; /* adds blue border under page title - delete if desired */
-padding-top: 30px !important;
+	border-top: 1.5px solid #007EA8; /* adds blue border under page title - delete if desired */
+	padding-top: 30px !important;
 }
 
 .box {
-padding-left: 10px;
-padding-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .activity-navigation {
-display: none; /* hides activity navigation bar on bottom of lesson - delete if desired */
+	display: none; /* hides activity navigation bar on bottom of lesson - delete if desired */
 }
 
 .bg-light {
@@ -107,10 +107,12 @@ display: none; /* hides activity navigation bar on bottom of lesson - delete if 
 
 /*end of styles of Moodle lessons*/
 
-/*This styles h5p iframes (not while embedded but while in single activity mode */
+/*This styles elements while in single activity mode or in lessons, pages etc. */
 
 .h5p-iframe-wrapper {
-  max-width: 1400px /*sets a maximum width so that easier to view activities without scrolling */
+ 	max-width: 1400px /*sets a maximum width on h5p activities so that easier to view without scrolling down*/
 }
 
-
+.mediaplugin > div {
+	max-width: 580px !important; /*makes videos embedded directly larger, default is too small to be useful*/
+}
