@@ -116,3 +116,18 @@ color: white; /* changes the lesson title font color to white */
 .mediaplugin > div {
 	max-width: 580px !important; /*makes videos embedded directly larger, default is too small to be useful*/
 }
+
+/*This styles the back to top button */
+
+#goto-top-link .icon{ /* Style back to top button size */
+	font-size: 40px;
+	width: 70px;
+	height: 45px;
+}
+
+#goto-top-link .btn-light{ /* Style back to top button colour, shape */
+	background-color: #db7c00f0;
+	border-color: none;
+	border-radius: 5px 0 0 5px;
+	color: #ffffff;
+}
