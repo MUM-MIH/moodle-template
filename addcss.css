@@ -56,6 +56,12 @@ line-height: 1.5rem !important;
 .mceLayout {
   width:100% !important;
 }
+
+/*This increases default height of the Attoeditor */
+div#id_introeditoreditable {
+	min-height: 600px !important;
+}
+
 /*This ensures there is no space at the top of the blocks on the right*/
 .block .content {
   margin-top: 0px !important;
@@ -130,4 +136,98 @@ color: white; /* changes the lesson title font color to white */
 	border-color: none;
 	border-radius: 5px 0 0 5px;
 	color: #ffffff;
+}
+
+/*This styles the accordion in overview page*/
+.acctab > input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.acc .row {
+  display: flex;
+}
+.acc .row .acc .col {
+  flex: 1;
+}
+.acc .row .acc .col:last-child {
+  margin-left: 1em;
+}
+
+.accordion {
+  overflow: hidden;
+}
+
+.acctab {
+  width: 100%;
+  color: #343a40;
+  overflow: hidden;
+}
+.acctab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em 1em;
+  margin:4px 0 0 0;
+  background: #d7d7d7;
+  cursor: pointer;
+  margin-bottom: 0 !important;
+  border-radius: 15px;
+  font-size: 1.1rem;
+}
+
+.acctab-label:hover {
+  background: #f1f1f1;
+}
+.acctab-label::after { /* Icon */
+  display: inline-block;
+  padding-left: 6px;
+  padding-right: 8px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 0.8em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  content: "\f138";
+  text-align: center;
+  transition: all 0.35s;
+}
+.acctab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #343a40;
+  background: white;
+  transition: all 0.35s;
+}
+.acctab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #007EA8;
+  cursor: pointer;
+}
+.acctab-close:hover {
+  background: #007EA8;
+}
+
+input:checked + .acctab-label {
+  background: #036e92;
+  color: white;
+}
+input:checked + .acctab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .acctab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+  
+.acctab td{
+background-color: #FFFFFF;
+}
+
+/* Changes color of links on entire site to match theme */
+a {
+color: #006080
 }
