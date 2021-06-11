@@ -62,6 +62,10 @@ div#id_introeditoreditable {
 	min-height: 600px !important;
 }
 
+div#id_content_editoreditable { /*This increases default height of the Attoeditor in Books */
+	min-height: 600px !important;
+}
+
 /*This ensures there is no space at the top of the blocks on the right*/
 .block .content {
   margin-top: 0px !important;
