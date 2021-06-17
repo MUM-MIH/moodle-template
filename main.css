@@ -82,56 +82,6 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
   border-color: transparent transparent #deeefb transparent;
 }
 
-@media screen and (min-width: 768px) {
-/* For desktops */
-	.section>li:not(.activity.modtype_label){
-		padding-left: 8em;
-		margin-top: 1em;
-	}
-
-	.readingbox {
-		max-width: 675px;
-		padding-left: 6.2em;
-	}
-	.mediaplugin {
-		padding-left: 86px;
-	}
-	.mediaplugin > div {
-		margin: 0;
-		max-width: 580px !important;
-	}
-	 div>iframe[src*="panopto"] {
-		 margin-left: 85px;
-  	}
-}
-
-@media only screen and (max-width: 768px) {
-/* For mobile phones: */
-  	li.section .content {
-    		margin: 0 0px !important;
-  	}
-	
-	.boxemphasis {
-  		padding: 0.5em;
-  		margin-left: 0;
-	}
-	
-	.jumbotron {
-  		padding: 2rem 1rem 2rem;
-	}
-
-	ul#gtopics{
-		padding-left: 0 !important;
-	}
-	
-	.vidembed {
-	margin-left: 0px;
-	margin-right: auto;
-	padding-right: 0px;
-	padding-left: 0px;
-	}
-}
-
 html body{
 	font-size: 90%;
 }
@@ -488,6 +438,67 @@ table {
 	background-image: url("https://mum-mih.github.io/moodle-template/Icon_design.png");
 	background-size: contain;
 	background-repeat: no-repeat
+}
+
+@media screen and (min-width: 768px) {
+/* For desktops only*/
+	.section>li:not(.activity.modtype_label){
+		padding-left: 8em;
+		margin-top: 1em;
+	}
+
+	.readingbox {
+		max-width: 675px;
+		padding-left: 6.2em;
+	}
+	.mediaplugin {
+		padding-left: 86px;
+	}
+	.mediaplugin > div {
+		margin: 0;
+		max-width: 580px !important;
+	}
+	 div>iframe[src*="panopto"] {
+		 margin-left: 85px;
+		 width:580px;
+		 height:326px;
+  	}
+}
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones and smaller only */
+  	li.section .content {
+    		margin: 0 0px !important;
+  	}
+	
+	.boxemphasis {
+  		padding: 0.5em;
+  		margin-left: 0;
+	}
+	
+	.jumbotron {
+  		padding: 2rem 1rem 2rem;
+	}
+
+	ul#gtopics{
+		padding-left: 0 !important;
+	}
+	
+	.vidembed {
+	margin-left: 0px;
+	margin-right: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+	
+	path-site li.activity>div, .path-course-view li.activity>div {
+		padding: 0;
+	}
+	
+	.section .label .contentwithoutlink, .section .label .activityinstance {
+		padding-right: 0;
+	}
+		
 }
 
 --></style>
