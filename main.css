@@ -441,7 +441,12 @@ table {
 }
 
 @media screen and (min-width: 768px) {
-/* For desktops only*/
+/* For tablets and larger */
+	div>iframe[src*="panopto"] {
+		 margin-left: 85px;
+		 width:86%;
+		 height:350px;
+  	}
 	.section>li:not(.activity.modtype_label){
 		padding-left: 8em;
 		margin-top: 1em;
@@ -458,9 +463,22 @@ table {
 		margin: 0;
 		max-width: 580px !important;
 	}
+}
+
+@media screen and (min-width: 1200px) {
+/* For laptops and desktops only*/
 	 div>iframe[src*="panopto"] {
 		 margin-left: 85px;
-		 width:580px;
+		 width:45%;
+		 height:226px;
+  	}
+}
+
+@media screen and (min-width: 1800px) {
+/* For laptops and desktops only*/
+	 div>iframe[src*="panopto"] {
+		 margin-left: 85px;
+		 width:45%;
 		 height:326px;
   	}
 }
@@ -490,6 +508,12 @@ table {
 	padding-right: 0px;
 	padding-left: 0px;
 	}
+	
+	 div>iframe[src*="panopto"] {
+		 width:100%;
+		 height: 200px;
+		 margin-left: 0;
+  	}
 	
 	path-site li.activity>div, .path-course-view li.activity>div {
 		padding: 0;
