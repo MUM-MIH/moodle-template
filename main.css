@@ -140,6 +140,12 @@ html body{
 	font-weight: 400;
 }
 
+.weektitle h3{ /* Weekly main title font */
+	font-size: 2rem;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #01506A
+}
 .weekthumb { /* Optional Image on right of Weekly Title */
 	float: right;
 	max-width: 300px;
