@@ -162,7 +162,7 @@ html{scroll-behavior:smooth}
 }
 
 .jumbotron { /* Weekly main title grey BG */
-  	background-color: #E8E8E8!important;
+  	background-color: #ECECEC !important;
  	padding: 1rem 2rem 2rem;
 }
 
@@ -200,7 +200,7 @@ html{scroll-behavior:smooth}
 }
 
 .boxemphasis {  /* Placeholder - grey text box */
-	background-color: #E8E8E8;
+	background-color: #ECECEC;
 	padding: 1.5em 1.5em 1em;
 	margin-left: 75px;
 }
