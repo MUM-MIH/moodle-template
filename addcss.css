@@ -127,6 +127,16 @@ color: white; /* changes the lesson title font color to white */
 	max-width: 580px !important; /*makes videos embedded directly larger, default is too small to be useful*/
 }
 
+.book_content h3:first-child { /*style page titles in Books*/
+	color: #016080;
+	font-family: Helvetica Neue !important;
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
 /*This styles the back to top button */
 
 #goto-top-link .icon{ /* Style back to top button size */
