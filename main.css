@@ -233,6 +233,10 @@ ul.gridicons li .icon_content {
    	padding-bottom: 67%;
 }
 
+embed-responsive-16by9{
+	padding-bottom: 62.25%;
+}
+
 /* Table (general) styles */
 thead {
 	background-color: #007EA8;
