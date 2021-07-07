@@ -233,7 +233,7 @@ ul.gridicons li .icon_content {
    	padding-bottom: 67%;
 }
 
-embed-responsive-16by9::before{
+.embed-responsive-16by9::before{
 	padding-top: 62.25%;
 }
 
