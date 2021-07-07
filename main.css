@@ -229,8 +229,8 @@ ul.gridicons li .icon_content {
 
 /* Responsive embedded h5p non-video */
 
-.embed-responsive-5by3{
-   	padding-bottom: 67%;
+.embed-responsive-5by3::before{
+   	padding-top: 62.25%;
 }
 
 .embed-responsive-16by9::before{
