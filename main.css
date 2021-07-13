@@ -178,7 +178,7 @@ html{scroll-behavior:smooth}
 	font-weight: 400;
 	color: #01506A
 }
-.weekthumb { /* Optional Image on right of Weekly Title */
+.weekthumb>img { /* Optional Image on right of Weekly Title */
 	float: right;
 	max-width: 300px;
 	max-height: 250px;
