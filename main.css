@@ -451,10 +451,10 @@ table {
 
 @media screen and (min-width: 768px) {
 /* For tablets and larger */
-	div>iframe[src*="panopto"] {
-		 margin-left: 85px;
-		 width:86%;
-		 height:350px;
+	div>:not(.embed-responsive)iframe[src*="panopto"] {
+		 /* margin-left: 85px; */
+		 /* width:86%; */
+		 /* height:350px; */
   	}
 	.section>li:not(.activity.modtype_label){
 		padding-left: 8em;
@@ -476,7 +476,7 @@ table {
 
 @media screen and (min-width: 1200px) {
 /* For laptops and desktops only*/
-	 div>iframe[src*="panopto"] {
+	 div:not(.embed-responsive)>iframe[src*="panopto"] {
 		 margin-left: 85px;
 		 width:45%;
 		 height:226px;
@@ -485,7 +485,7 @@ table {
 
 @media screen and (min-width: 1800px) {
 /* For laptops and desktops only*/
-	 div>iframe[src*="panopto"] {
+	 div:not(.embed-responsive)>iframe[src*="panopto"] {
 		 margin-left: 85px;
 		 width:45%;
 		 height:326px;
@@ -518,7 +518,7 @@ table {
 	padding-left: 0px;
 	}
 	
-	 div>iframe[src*="panopto"] {
+	div:not(.embed-responsive)>iframe[src*="panopto"] {
 		 width:100%;
 		 height: 200px;
 		 margin-left: 0;
