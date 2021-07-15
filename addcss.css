@@ -102,10 +102,10 @@ color: white; /* changes the lesson title font color to white */
 	padding-top: 30px !important;
 }
 
-.box {
+/*.box {
 	padding-left: 10px;
 	padding-right: 10px;
-}
+}*/
 
 .activity-navigation {
 	display: none; /* hides activity navigation bar on bottom of lesson - delete if desired */
