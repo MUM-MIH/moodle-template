@@ -135,6 +135,13 @@ color: white; /* changes the lesson title font color to white */
 	line-height: 1.2;
 	text-align: center;
 	margin-bottom: 2rem;
+	border-bottom: solid 1px #dddddd;
+	padding-bottom: 2rem;
+}
+
+.box { /*centers content in single activities*/
+	padding-left:10%;
+	padding-right:10%;
 }
 
 /*This styles the back to top button */
