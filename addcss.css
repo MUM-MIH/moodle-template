@@ -142,6 +142,7 @@ color: white; /* changes the lesson title font color to white */
 .box { /*centers content in single activities*/
 	padding-left:10%;
 	padding-right:10%;
+	max-width: 1400px;
 }
 
 /*This styles the back to top button */
