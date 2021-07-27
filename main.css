@@ -146,6 +146,10 @@ html{scroll-behavior:smooth}
 	color: #ffffff;
 }
 
+div.circleiconw~p { /* moves all normal p text inside headers */
+	margin-left: 85px;
+}
+
 .circleicontask { /* Weekly task header blue */
 	background: #007EA8;
 	background-image:linear-gradient(135deg, #007EA8, #007EA8 50%, #006F94 50%);
