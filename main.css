@@ -475,7 +475,7 @@ table {
 	div.circleiconw~p { /* moves all normal p text inside headers */
 	margin-left: 85px;
 	}
-	div.circleiconw~li { /* moves all normal p text inside headers */
+	div.circleiconw~ul, div.circleiconw~ol { /* moves all normal p text inside headers */
 	margin-left: 85px;
 	}
 }
