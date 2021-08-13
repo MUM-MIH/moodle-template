@@ -463,7 +463,7 @@ table {
 
 @media screen and (min-width: 768px) {
 /* For tablets and larger */
-	div>:not(.embed-responsive)>iframe[src*="panopto"] {
+	div:not(.embed-responsive)>iframe[src*="panopto"] {
 		 margin-left: 85px;
 		 /* width:86%; */
 		 /* height:350px; */
