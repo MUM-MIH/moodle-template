@@ -493,7 +493,7 @@ table {
 	.policy-frame {
 		width: 100%;
 		height: 100%;
-		min-height: 200px;
+		min-height: 1000px;
 		border: none;
 	}
 }
@@ -507,7 +507,7 @@ table {
   	}
 	.policy-frame {
 		width: 100%;
-		min-height: 1000px;
+		min-height: 1100px;
 		border: none;
 	}
 }
@@ -521,7 +521,7 @@ table {
   	}
 	.policy-frame {
 		width: 100%;
-		min-height: 700px;
+		min-height: 800px;
 		border: none;
 	}
 }
@@ -564,6 +564,12 @@ table {
 	
 	.section .label .contentwithoutlink, .section .label .activityinstance {
 		padding-right: 0;
+	}
+	.policy-frame {
+		width: 100%;
+		height: 100%;
+		min-height: 1800px;
+		border: none;
 	}
 		
 }
