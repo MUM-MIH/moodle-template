@@ -508,6 +508,16 @@ table {
 		 width:45%;
 		 height:326px;
   	}
+	.policy-frame {
+		width: 100%;
+		min-height: 600px;
+		border: none;
+	}
+	.c7 {
+		max-width: 100%;
+		margin: 0;
+		padding: 0 !important;
+	}
 }
 
 @media only screen and (max-width: 768px) {
