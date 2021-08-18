@@ -510,13 +510,8 @@ table {
   	}
 	.policy-frame {
 		width: 100%;
-		min-height: 600px;
+		min-height: 700px;
 		border: none;
-	}
-	.c7 {
-		max-width: 100%;
-		margin: 0;
-		padding: 0 !important;
 	}
 }
 
