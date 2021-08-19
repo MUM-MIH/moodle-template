@@ -461,6 +461,12 @@ table {
 	background-repeat: no-repeat
 }
 
+#gridsection-22 .image_holder {
+	background-image: url("https://mum-mih.github.io/MUM-template-2/Icon_recycle.svg");
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
 @media screen and (min-width: 768px) {
 /* For tablets and larger */
 	div:not(.embed-responsive)>iframe[src*="panopto"] {
