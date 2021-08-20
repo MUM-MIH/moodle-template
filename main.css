@@ -180,7 +180,7 @@ html{scroll-behavior:smooth}
 	font-weight: 400;
 }
 
-.weektitle h3{ /* Weekly main title font */
+.weektitle h3, .weektitle h2{ /* Weekly main title font - makes sure always accessible colours if lecturers decide to use headers here */
 	font-size: 2rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
