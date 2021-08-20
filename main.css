@@ -14,26 +14,26 @@ li.section .content {
 	display:none;
 }
 
-html body{
+html {
 	font-size: 90%;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 h4 {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 
 h5 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
@@ -92,10 +92,6 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
   border-width: 9px;
   border-style: solid;
   border-color: transparent transparent #deeefb transparent;
-}
-
-html body{
-	font-size: 90%;
 }
 
 #staffonly { /* hides all instructions for staff from view EXCEPT in the editor window */
@@ -258,7 +254,7 @@ thead td,th:not(#taskbar) {
 	color: #FFFFFF;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 1.1px;
 	text-decoration: none;
 	text-align: left;
 	padding: 10px
