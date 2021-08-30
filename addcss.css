@@ -144,9 +144,9 @@ color: white; /* changes the lesson title font color to white */
 	max-width: 1400px;
 }
 
-#intro { /* hides activity descriptions in lessons, books and pages */
+/* #intro {  hides activity descriptions in lessons, books and pages
 display: none;
-}
+} */
 
 /*This styles the back to top button */
 
